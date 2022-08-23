@@ -14,7 +14,6 @@ class SytesTableSeeder extends Seeder
     public function run()
     {
         DB::table('sytes')->insert([
-            'id' => 1,
             'name' => '天然温泉　スパジアムジャポン',
             'sauna' => '1',
             'ganban' => '1',
@@ -31,7 +30,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tokyo_West',
         ]);
         DB::table('sytes')->insert([
-            'id' => 2,
+            
             'name' => '東京新宿天然温泉テルマー湯',
             'sauna' => '1',
             'ganban' => '1',
@@ -48,7 +47,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tokyo_East',
         ]);
         DB::table('sytes')->insert([
-            'id' => 3,
+          
             'name' => '東京ドーム天然温泉 スパラクーア',
             'sauna' => '1',
             'ganban' => '1',
@@ -65,7 +64,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tokyo_East',
         ]);
         DB::table('sytes')->insert([
-            'id' => 4,
+        
             'name' => 'お風呂の王様　花小金井店',
             'sauna' => '1',
             'ganban' => '1',
@@ -82,7 +81,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tokyo_West',
         ]);
         DB::table('sytes')->insert([
-            'id' => 5,
+        
             'name' => 'のだ温泉　ほのか',
             'sauna' => '1',
             'ganban' => '1',
@@ -99,7 +98,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Chiba_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 6,
+            
             'name' => 'JFA夢フィールド　幕張温泉　湯楽の里',
             'sauna' => '1',
             'ganban' => '1',
@@ -116,7 +115,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Chiba_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 7,
+           
             'name' => 'スパメッツァ おおたか 竜泉寺の湯',
             'sauna' => '1',
             'ganban' => '0',
@@ -133,7 +132,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Chiba_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 8,
+           
             'name' => '南総城山温泉 里見の湯',
             'sauna' => '1',
             'ganban' => '0',
@@ -150,7 +149,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Chiba_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 9,
+           
             'name' => '綱島源泉 湯けむりの庄',
             'sauna' => '0',
             'ganban' => '1',
@@ -167,7 +166,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Kanagawa_east',
         ]);
         DB::table('sytes')->insert([
-            'id' => 10,
+            
             'name' => 'RAKU SPA 鶴見',
             'sauna' => '0',
             'ganban' => '1',
@@ -184,7 +183,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Kanagawa_east',
         ]);
         DB::table('sytes')->insert([
-            'id' => 11,
+            
             'name' => '横濱スパヒルズ 竜泉寺の湯',
             'sauna' => '0',
             'ganban' => '1',
@@ -201,7 +200,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Kanagawa_east',
         ]);
         DB::table('sytes')->insert([
-            'id' => 12,
+          
             'name' => '箱根湯寮',
             'sauna' => '0',
             'ganban' => '0',
@@ -218,7 +217,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Kanagawa_east',
         ]);
         DB::table('sytes')->insert([
-            'id' => 13,
+      
             'name' => '西武秩父駅前温泉　祭りの湯',
             'sauna' => '0',
             'ganban' => '1',
@@ -235,7 +234,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Saitama_west',
         ]);
         DB::table('sytes')->insert([
-            'id' => 14,
+       
             'name' => '美楽温泉　SPA-HERBS',
             'sauna' => '0',
             'ganban' => '0',
@@ -252,7 +251,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Saitama_east',
         ]);
         DB::table('sytes')->insert([
-            'id' => 15,
+         
             'name' => '熊谷天然温泉花湯スパリゾート',
             'sauna' => '0',
             'ganban' => '0',
@@ -269,7 +268,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Saitama_west',
         ]);
         DB::table('sytes')->insert([
-            'id' => 16,
+          
             'name' => '秩父温泉　満願の湯',
             'sauna' => '0',
             'ganban' => '0',
@@ -286,7 +285,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Saitama_west',
         ]);
         DB::table('sytes')->insert([
-            'id' => 17,
+          
             'name' => '黄金の湯館',
             'sauna' => '0',
             'ganban' => '0',
@@ -303,7 +302,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Gunma_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 18,
+           
             'name' => '西の河原露天風呂',
             'sauna' => '0',
             'ganban' => '0',
@@ -320,7 +319,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Gunma_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 19,
+           
             'name' => '京ヶ島天然温泉　湯都里',
             'sauna' => '0',
             'ganban' => '0',
@@ -337,7 +336,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Gunma_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 20,
+
             'name' => '湯楽部　太田店',
             'sauna' => '0',
             'ganban' => '0',
@@ -354,7 +353,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Gunma_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 21,
+       
             'name' => '栃木温泉由良の里',
             'sauna' => '0',
             'ganban' => '0',
@@ -371,7 +370,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tochigi_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 22,
+          
             'name' => '宮の街道温泉 江戸遊',
             'sauna' => '0',
             'ganban' => '0',
@@ -388,7 +387,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tochigi_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 23,
+          
             'name' => 'ベルさくらの湯',
             'sauna' => '0',
             'ganban' => '0',
@@ -405,7 +404,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tochigi_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 24,
+            
             'name' => '自然浴 離れの湯 あけび',
             'sauna' => '0',
             'ganban' => '0',
@@ -422,7 +421,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Tochigi_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 25,
+       
             'name' => 'ひたちなか温泉　喜楽里　別邸',
             'sauna' => '0',
             'ganban' => '0',
@@ -439,7 +438,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Ibaraki_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 26,
+            
             'name' => '湯楽の里 日立店',
             'sauna' => '0',
             'ganban' => '0',
@@ -456,7 +455,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Ibaraki_North',
         ]);
         DB::table('sytes')->insert([
-            'id' => 27,
+           
             'name' => 'きぬの湯',
             'sauna' => '0',
             'ganban' => '0',
@@ -473,7 +472,7 @@ class SytesTableSeeder extends Seeder
             'direction'=>'Ibaraki_South',
         ]);
         DB::table('sytes')->insert([
-            'id' => 28,
+            
             'name' => '岩盤温浴リゾート　ココプララ',
             'sauna' => '1',
             'ganban' => '1',
