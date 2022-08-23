@@ -1,0 +1,163 @@
+.body{
+  
+}
+
+.Japan{
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: -1;
+  width:100%;
+  min-height: 100vh;
+}
+
+
+.Tokyo {
+  width:100%;
+}
+
+.Tokyo_east{
+  position: absolute;
+  top:40%;
+  left:40%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Tokyo_west{
+  position: absolute;
+  top:30%;
+  left:15%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 20px;*/
+}
+
+.Kanagawa {
+  
+  width:100%;
+}
+.Kanagawa_east{
+  position: absolute;
+  top:50%;
+  left:65%;
+  /*fon50%t-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Kanagawa_west{
+  position: absolute;
+  top:50%;
+  left:20%;
+}
+
+.Saitama {
+  
+  width:100%;
+  position: relative;
+}
+.Saitama_east{
+  position: absolute;
+  top:50%;
+  left:65%;
+}
+
+.Saitama_west{
+  position: absolute;
+  top:50%;
+  left:20%;
+}
+
+.Chiba{
+  background: url('img/千葉県.jpeg');
+  width:30%;
+  position: relative;
+}
+.Chiba_North{
+  position: absolute;
+  top:30%;
+  left:17%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Chiba_South{
+  position: absolute;
+  top:65%;
+  left:10%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 20px;*/
+}
+.Gunma {
+  
+  background: url('img/群馬県.jpeg');
+  width:100%;
+  position: relative;
+}
+.Gunma_North{
+  position: absolute;
+  top:30%;
+  left:45%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Gunma_South{
+  position: absolute;
+  top:65%;
+  left:35%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 20px;*/
+}
+.Tochigi{
+  
+  background-image: url('img/栃木県.jpeg');
+  width:90%;
+  position: relative;
+}
+.Tochigi_North{
+  position: absolute;
+  top:20%;
+  left:55%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Tochigi_South{
+  position: absolute;
+  top:65%;
+  left:40%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 20px;*/
+}
+.Ibaraki{
+  
+  background: url('img/茨城県.jpeg');
+  width:100%;
+  position: relative;
+}
+.Ibaraki_North{
+  position: absolute;
+  top:30%;
+  left:60%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 30px;*/
+}
+
+.Ibaraki_South{
+  position: absolute;
+  top:70%;
+  left:35%;
+  /*font-size:30px;*/
+  /*color: black;*/
+  /*padding:30px 20px;*/
+}

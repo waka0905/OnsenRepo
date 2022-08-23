@@ -1,0 +1,59 @@
+.body{
+background: #c21500;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title{
+    color:white;
+    text-align:center;
+}
+
+.jenre{
+  
+}
+
+.sub{
+    color: white;
+    background-color:
+}
+
+.area{
+  font-size: 20px;
+  background-image: url('./img/関東.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.area_img{
+  display: inline-block
+}
+
+.area a{
+  color:white;
+  vertical-align: middle;
+  position:absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.rank{
+  font-size: 20px;
+  background-image: url('./img/ランキング.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+.rank_img{
+ display: inline-block
+}
+
+.rank a{
+  color:white;
+  vertical-align: middle;
+  position:absolute;
+  bottom: 20px;
+  left: 20px;
+}
