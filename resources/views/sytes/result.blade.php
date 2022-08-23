@@ -5,9 +5,11 @@
         <title>温泉検索</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+          <link rel="stylesheet" href="{{asset('css/result.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
+        
     </head>
-    <body>
+    <body class="body">
         <h1>検索結果</h1>
         <div class="sytes">
             @foreach ($sytes as $syte)

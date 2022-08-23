@@ -28,6 +28,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'年中無休',
             'bus' =>'あり',
             'direction'=>'Tokyo_West',
+            'review'=>'',
+            'img1' =>'スパジャポ１.jpeg',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -45,6 +48,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'年中無休',
             'bus' =>'なし',
             'direction'=>'Tokyo_East',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -62,6 +68,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'年中無休',
             'bus' =>'なし',
             'direction'=>'Tokyo_East',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
         
@@ -79,6 +88,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'年中無休',
             'bus' =>'なし',
             'direction'=>'Tokyo_West',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
         
@@ -96,6 +108,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'年中無休',
             'bus' =>'あり',
             'direction'=>'Chiba_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -113,6 +128,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Chiba_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -130,6 +148,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Chiba_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -147,6 +168,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Chiba_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -164,6 +188,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Kanagawa_east',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -181,6 +208,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Kanagawa_east',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -198,6 +228,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Kanagawa_east',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -215,6 +248,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'あり',
             'direction'=>'Kanagawa_east',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
       
@@ -232,6 +268,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Saitama_west',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
        
@@ -249,6 +288,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Saitama_east',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
          
@@ -266,6 +308,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Saitama_west',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -283,6 +328,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Saitama_west',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -300,6 +348,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Gunma_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -317,6 +368,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Gunma_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -334,6 +388,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Gunma_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
 
@@ -351,6 +408,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Gunma_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
        
@@ -368,6 +428,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Tochigi_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -385,6 +448,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Tochigi_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
           
@@ -402,6 +468,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Tochigi_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -419,6 +488,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Tochigi_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
        
@@ -436,6 +508,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Ibaraki_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -453,6 +528,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Ibaraki_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
            
@@ -470,6 +548,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Ibaraki_South',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
         DB::table('sytes')->insert([
             
@@ -487,6 +568,9 @@ class SytesTableSeeder extends Seeder
             'close' =>'',
             'bus' =>'',
             'direction'=>'Ibaraki_North',
+            'review'=>'',
+            'img1' =>'',
+            'img2' =>'',
         ]);
     }
 }

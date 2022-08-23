@@ -54,15 +54,5 @@
                 <a href='/sytes/rank'>関東温泉ランキング３０選</a>
             </div>
         </div>
-        <div class="sepia"><img src="{{asset('img/温泉背景.jpeg')}}" alt=""></div>
-        <div>
-    <form action="/sytes/store" method="post" enctype="multipart/form-data">
-    @csrf
-    <div>
-      <input type="file" name="img1" id="">
-    </div>
-    <button>送信</button>
-  </form>
-        </div>
     </body>
 </html>

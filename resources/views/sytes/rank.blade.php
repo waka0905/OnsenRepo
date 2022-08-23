@@ -5,9 +5,10 @@
         <title>ランキング３０選</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+         <link rel="stylesheet" href="{{asset('css/rank.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
     </head>
-    <body>
+    <body class="body">
         <h1>関東温泉ランキング３０選
             <form action="/sytes/terms" method="GET">
                 @csrf

@@ -6,14 +6,17 @@
         <title>{{ $syte->name }}</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="{{asset('css/show.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
     </head>
-    <body>
+    <body class="body">
         <h1 class="name">
             {{ $syte->name }}
         </h1>
         <h2><a href="{{ $syte->url }}">公式サイト</a></h2>
+        <div>
+            <img src="{{asset( $syte->img1)}}">
+        </div>
         <div>
             <li>住所:{{ $syte->prefecture }}{{ $syte->address }}</li>
             <li>最寄駅:{{ $syte->nearest }}</li>
