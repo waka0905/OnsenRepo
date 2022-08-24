@@ -41,10 +41,10 @@
 　      <div style="position:relative;width:fit-content;">
 　          <img class="Saitama"src="{{asset('img/埼玉県.png')}}">
 　      <div class="Saitama_east">
-        <a href="/sytes/direction?direction=Saitama_North">東部</a>
+        <a href="/sytes/direction?direction=Saitama_East">東部</a>
         </div>
         <div class="Saitama_west">
-        <a href="/sytes/direction?direction=Saitama_South">西部</a>
+        <a href="/sytes/direction?direction=Saitama_West">西部</a>
         </div>
         </details>
         </div>

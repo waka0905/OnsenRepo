@@ -14,8 +14,9 @@
             {{ $syte->name }}
         </h1>
         <h2><a href="{{ $syte->url }}">公式サイト</a></h2>
-        <div>
-            <img src="{{asset( $syte->img1)}}">
+        <div class="img">
+            <img class="img1" src="{{asset($syte->img1)}}">
+            <img class="img2" src="{{asset($syte->img2)}}">
         </div>
         <div>
             <li>住所:{{ $syte->prefecture }}{{ $syte->address }}</li>
