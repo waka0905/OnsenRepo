@@ -5,6 +5,7 @@
         <title>方面検索</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="{{asset('css/direction.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
     </head>
     <body>
@@ -16,5 +17,6 @@
                 </div>
             @endforeach
         </div>
+          <img class="Japan" src="{{asset('img/日本.jpeg')}}">
     </body>
 </html>

@@ -7,11 +7,11 @@ background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Fi
 
 .img{
     display: flex;
-     width: 25%;
+    max-width: 25%;
 }
 
 .img1,.img2{
-    width: 50%;
-    margin: 10px 5px;
+    width: 70%;
+    margin: 10px 3px;
     
 }

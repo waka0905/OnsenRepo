@@ -101,8 +101,7 @@
         </div>
         </details>
         </div>
-        
-                <img class="Japan" src="{{asset('img/日本.jpeg')}}">
+        <img class="Japan" src="{{asset('img/日本.jpeg')}}">
        
         <div class="footer">
             <a href="/">ホームに戻る</a>
