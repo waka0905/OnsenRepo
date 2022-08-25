@@ -25,7 +25,7 @@
         
         <details>
 　      <summary style="font-size:40px;">神奈川県</summary>
-　      <div style="position:relative;width:fit-content;">
+　      <div style="position:relative;width:;">
 　          <img class="Kanagawa"src="{{asset('img/神奈川県.png')}}">
 　      <div class="Kanagawa_east">
         <a href="/sytes/direction?direction=Kanagawa_East">東部</a>
@@ -38,7 +38,7 @@
         
         <details>
 　      <summary style="font-size:40px;">埼玉県</summary>
-　      <div style="position:relative;width:fit-content;">
+　      <div style="position:relative;width:;">
 　          <img class="Saitama"src="{{asset('img/埼玉県.png')}}">
 　      <div class="Saitama_east">
         <a href="/sytes/direction?direction=Saitama_East">東部</a>
