@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('css/area.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
+         @include('sytes.header')
     </head>
     <body class="body">
         <h1>エリア検索</h1>
@@ -25,7 +26,7 @@
         
         <details>
 　      <summary style="font-size:40px;">神奈川県</summary>
-　      <div style="position:relative;width:;">
+　      <div style="position:relative;width:fit-content;">
 　          <img class="Kanagawa"src="{{asset('img/神奈川県.png')}}">
 　      <div class="Kanagawa_east">
         <a href="/sytes/direction?direction=Kanagawa_East">東部</a>
@@ -38,7 +39,7 @@
         
         <details>
 　      <summary style="font-size:40px;">埼玉県</summary>
-　      <div style="position:relative;width:;">
+　      <div style="position:relative;width:fit-content;">
 　          <img class="Saitama"src="{{asset('img/埼玉県.png')}}">
 　      <div class="Saitama_east">
         <a href="/sytes/direction?direction=Saitama_East">東部</a>

@@ -8,8 +8,10 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('css/show.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
+        @include('sytes.header')
     </head>
     <body class="body">
+     <main>
         <h1 class="name">
             {{ $syte->name }}
         </h1>
@@ -18,7 +20,7 @@
             <img class="img1" src="{{asset($syte->img1)}}">
             <img class="img2" src="{{asset($syte->img2)}}">
         </div>
-        <div>
+        <div class="list">
             <li>住所:{{ $syte->prefecture }}{{ $syte->address }}</li>
             <li>最寄駅:{{ $syte->nearest }}</li>
             <li>入浴料:{{ $syte->price }}</li>
@@ -27,7 +29,8 @@
             <li>送迎バス:{{ $syte->bus }}</li>
         </div>
         <div class="footer">
-            <a href="/">ホームに戻る</a>
+           
         </div>
+     </main>
     </body>
 </html>

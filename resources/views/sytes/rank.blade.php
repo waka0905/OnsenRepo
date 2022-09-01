@@ -7,8 +7,10 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
          <link rel="stylesheet" href="{{asset('css/rank.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
+        @include('sytes.header')
     </head>
     <body class="body">
+        <main>
         <h1>関東温泉ランキング３０選
             <form action="/sytes/terms" method="GET">
                 @csrf
@@ -28,6 +30,7 @@
                 <div class="syte">
                     <h2 class="name">
                         <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</h2>
+                         <img class="img" src="{{asset($syte->img1)}}">
                 </div>
             @endforeach
         </div>
@@ -37,5 +40,6 @@
         <div class="footer">
             <a href="/">ホームに戻る</a>
         </div>
+        </main>
     </body>
 </html>

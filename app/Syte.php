@@ -14,6 +14,7 @@ class Syte extends Model
     public function getPaginateByLimit(int $limit_count = 7)
     {
     // updated_atで降順に並べたあと、limitで件数制限をかける
-    return $this->orderBy('updated_at', 'DESC')->paginate($limit_count);
+    return $this->orderBy('review', 'DESC')->paginate($limit_count);
     }
+    
 }

@@ -7,13 +7,15 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('css/direction.css') }}">
         <link rel="icon" href="{{asset('img/favicon.ico')}}" >
+        @include('sytes.header')
     </head>
-    <body>
+    <body class="body">
         <div class="sytes">
             @foreach ($sytes as $syte)
                 <div class="syte">
                 <h2 class="name">
                 <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</h2>
+                 <img class="img1" src="{{asset($syte->img1)}}">
                 </div>
             @endforeach
         </div>

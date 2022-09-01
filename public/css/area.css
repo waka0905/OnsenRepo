@@ -1,5 +1,5 @@
 .body{
-  
+  margin:0;
 }
 
 .Japan{
@@ -17,6 +17,7 @@
 }
 
 .Tokyo_east{
+  font-size: 25px;
   position: absolute;
   top:45%;
   left:70%;
@@ -26,6 +27,7 @@
 }
 
 .Tokyo_west{
+  font-size: 25px;
   position: absolute;
   top:35%;
   left:25%;
@@ -36,56 +38,62 @@
 
 .Kanagawa {
   
-  width:30%;
+  width:140%;
 }
 .Kanagawa_east{
+  font-size: 25px;
   position: absolute;
   top:45%;
-  left:20%;
+  left:80%;
   
 }
 
 .Kanagawa_west{
+  font-size: 25px;
   position: absolute;
   top:45%;
-  left:8%;
+  left:25%;
 }
 
 .Saitama {
   
-  width:50%;
+  width:140%;
   position: relative;
 }
 .Saitama_east{
+  font-size: 25px;
   position: absolute;
   top:50%;
-  left:65%;
+  left:85%;
 }
 
 .Saitama_west{
+  font-size: 25px;
   position: absolute;
   top:50%;
-  left:20%;
+  left:25%;
 }
 
 .Chiba{
-  background: url('img/千葉県.jpeg');
-  width:30%;
+ 
+  width:50%;
   position: relative;
 }
 .Chiba_North{
+  font-size: 25px;
   position: absolute;
   top:30%;
-  left:17%;
+  left:25%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 30px;*/
 }
 
 .Chiba_South{
+  font-size: 25px;
   position: absolute;
   top:65%;
-  left:10%;
+  left:15%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 20px;*/
@@ -93,22 +101,24 @@
 .Gunma {
   
   background: url('img/群馬県.jpeg');
-  width:100%;
+  width:140%;
   position: relative;
 }
 .Gunma_North{
+  font-size: 25px;
   position: absolute;
   top:30%;
-  left:45%;
+  left:60%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 30px;*/
 }
 
 .Gunma_South{
+  font-size: 25px;
   position: absolute;
   top:65%;
-  left:35%;
+  left:45%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 20px;*/
@@ -116,12 +126,13 @@
 .Tochigi{
   
   background-image: url('img/栃木県.jpeg');
-  width:90%;
+  width:120%;
   position: relative;
 }
 .Tochigi_North{
+  font-size: 25px;
   position: absolute;
-  top:20%;
+  top:25%;
   left:55%;
   /*font-size:30px;*/
   /*color: black;*/
@@ -129,6 +140,7 @@
 }
 
 .Tochigi_South{
+  font-size: 25px;
   position: absolute;
   top:65%;
   left:40%;
@@ -139,22 +151,24 @@
 .Ibaraki{
   
   background: url('img/茨城県.jpeg');
-  width:100%;
+  width:130%;
   position: relative;
 }
 .Ibaraki_North{
+  font-size: 25px;
   position: absolute;
   top:30%;
-  left:60%;
+  left:70%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 30px;*/
 }
 
 .Ibaraki_South{
+  font-size: 25px;
   position: absolute;
-  top:70%;
-  left:35%;
+  top:65%;
+  left:45%;
   /*font-size:30px;*/
   /*color: black;*/
   /*padding:30px 20px;*/

@@ -2,16 +2,43 @@
     background: #DCE35B;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin:0;
+}
 
+h2{
+    font-size: 30px;
+}
+
+.name{
+    font-size: 60px;
+    text-align: center;
+    color:#993300;  /* fallback for old browsers */
 }
 
 .img{
-    display: flex;
-    max-width: 30%;
+    max-width: 50%;
+        width: 100%;
+        display: flex;
+        margin:0 auto;
 }
 
 .img1,.img2{
-    width: 70%;
-    margin: 10px 3px;
+   /* width: calc(100% / 3); */
+        width: 49%;
+}
+
+main {
+        margin: auto;
+        width: 75%;
+        min-width: 1000px;
+        background-color: rgba(255,255,255,0.6);
+        box-shadow: 10px 25px 40px 10px rgba(0, 0, 0, 0.8);
+        max-height: 200vh;
+        overflow: auto;
+        margin-bottom: 3rem;
+}
+
+.list{
+    font-size: 30px;
     
 }
