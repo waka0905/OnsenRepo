@@ -62,7 +62,7 @@ class SyteController extends Controller
             
             $syte = $syte->where('prefecture', $request->input('prefecture'));
         }
-        $data = $syte->get();
+        $data = $syte->paginate();
      return view('sytes/terms')->with(['sytes'=> $data]); 
     }
     

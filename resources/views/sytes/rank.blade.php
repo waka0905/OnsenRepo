@@ -29,7 +29,7 @@
             @foreach($sytes as $syte)
                 <div class="syte">
                     <h2 class="name">
-                        <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</h2>
+                        <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　　{{ $syte->review }}</h2>
                          <img class="img" src="{{asset($syte->img1)}}">
                 </div>
             @endforeach
@@ -38,7 +38,7 @@
             {{ $sytes->links() }}
         </div>
         <div class="footer">
-            <a href="/">ホームに戻る</a>
+           
         </div>
         </main>
     </body>

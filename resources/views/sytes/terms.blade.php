@@ -11,11 +11,15 @@
     </head>
     <body>
          <main>
+             <h1>関東温泉ランキング３０選</h1>
+            @foreach ($sytes as $syte)
+                      ” {{ $syte->prefecture }}”の絞り込み結果
+            @endforeach
         <div class="sytes">
             @foreach ($sytes as $syte)
                 <div class="syte">
                     <h2 class="name">
-                <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</h2>
+                <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　　{{ $syte->review }}</h2>
                  <img class="img" src="{{asset($syte->img1)}}">
                 </div>
             @endforeach
