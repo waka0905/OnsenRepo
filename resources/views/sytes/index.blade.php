@@ -8,12 +8,10 @@
          <link rel="stylesheet" href="{{asset('css/index.css') }}">
          <link rel="icon" href="{{asset('img/favicon.ico')}}" >
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-         <div class="back">
-        <a href="/"><img class="header"src="{{asset('img/header2.png')}}" ></a>
         </div>
     </head>
     <body class="body"> 
-   
+     <div class="all">
                  <!-- Swiper -->
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
@@ -26,13 +24,21 @@
             <div class="swiper-slide">
               <img src="{{asset('img/background3.jpg')}}" style="height: 100%; max-height: 100%; object-fit: cover">
             </div>
-          </div>
+            <div class="swiper-slide">
+              <img src="{{asset('img/background4.jpg')}}" style="height: 100%; max-height: 100%; object-fit: cover">
+            </div>
+        <div class="back">
+        <a href="https://still-ridge-56871.herokuapp.com/"
+          ><img class="header" src="img/header2.png"/></a>
         </div>
+      </div>
+          </div>
         
         <div class="title">
         <h1>♨︎日帰り温泉検索サイト︎</h1>
         <h2>誰でも簡単温泉検索</h2>    
         </div>
+          </div>
         <div class="jenre">
             <h1>ジャンルから探す</h1>
             <form action="/sytes/result" method="GET">
@@ -65,13 +71,13 @@
             </form>
         </div>
         <div class="sub">
-            <div class="area">
-                <img class="area_img"src="{{asset('img/関東.png')}}" >
-                <a href='/sytes/area'>エリアから探す</a>
+            <h1 class="area"><a href='/sytes/area'>エリアから探す</a></h1>
+            <div class="img1" style="width:fit-content;">
+                <img src="{{asset('img/関東.png')}}" >
             </div>
-            <div class="rank"> 
-                <a href='/sytes/rank'>関東温泉レビューランキング３０選</a>
-                <img class="area_img"src="{{asset('img/ランキング.jpeg')}}" >
+            <h1 class="review"><a href='/sytes/rank'>関東温泉レビューランキング３０選</a></h1>
+            <div class="img2"> 
+                <img src="{{asset('img/ランキング.jpeg')}}" >
             </div>
         </div>
             <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -96,5 +102,6 @@
                 }
               });
         </script>
+   
     </body>
 </html>

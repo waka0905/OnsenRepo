@@ -60,10 +60,12 @@ class SyteController extends Controller
 
         if(!is_null($request->input('prefecture',NULL))){
             
-            $syte = $syte->where('prefecture', $request->input('prefecture'));
+            $syte = $syte->where('prefecture', $request->input('prefecture'))
+                ->orderBy('review', 'desc')
+                ->orderBy('id');
         }
         $data = $syte->paginate();
-     return view('sytes/terms')->with(['sytes'=> $data]); 
+     return view('sytes/terms')->with(['sytes'=> $data, 'pref'=>$request->input('prefecture')]); 
     }
     
     public function show(Syte $syte)

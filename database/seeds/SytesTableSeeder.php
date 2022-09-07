@@ -29,6 +29,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Tokyo_West',
             'review'=>'3.5',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/spajapo1.jpeg',
             'img2' =>'/img1/spajapo2.jpeg',
         ]);
@@ -49,6 +50,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Tokyo_East',
             'review'=>'4.5',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/teruma1.jpeg',
             'img2' =>'/img1/teruma2.jpeg',
         ]);
@@ -69,6 +71,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Tokyo_East',
             'review'=>'3.4',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/raqua1.jpeg',
             'img2' =>'/img1/raqua2.jpeg',
         ]);
@@ -89,6 +92,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Tokyo_West',
             'review'=>'4.0',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/king1.jpeg',
             'img2' =>'/img1/king2.jpeg',
         ]);
@@ -109,6 +113,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Chiba_North',
             'review'=>'4.3',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/honoka1.jpeg',
             'img2' =>'/img1/honoka2.jpeg',
         ]);
@@ -129,6 +134,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Chiba_North',
             'review'=>'4.1',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/yura1.jpeg',
             'img2' =>'/img1/yura2.jpeg',
         ]);
@@ -149,6 +155,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Chiba_North',
             'review'=>'4.0',
+            'star'=>'/img/4,0.png',
             'img1' =>'/img1/otaka1.jpeg',
             'img2' =>'/img1/otaka2.jpeg',
         ]);
@@ -169,6 +176,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Chiba_South',
             'review'=>'3.3',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/satomi1.jpeg',
             'img2' =>'/img1/satomi2.jpeg',
         ]);
@@ -189,6 +197,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Kanagawa_East',
             'review'=>'4.1',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/yukemuri1.jpeg',
             'img2' =>'/img1/yukemuri2.jpeg',
         ]);
@@ -209,6 +218,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Kanagawa_East',
             'review'=>'3.9',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/turumi1.jpeg',
             'img2' =>'/img1/turumi2.jpeg',
         ]);
@@ -229,6 +239,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Kanagawa_East',
             'review'=>'4.0',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/yokohama1.jpeg',
             'img2' =>'/img1/yokohama2.jpeg',
         ]);
@@ -249,6 +260,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Kanagawa_West',
             'review'=>'3.6',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/hakone1.jpeg',
             'img2' =>'/img1/hakone2.jpeg',
         ]);
@@ -269,6 +281,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Saitama_Eest',
             'review'=>'3.6',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/maturi1.jpeg',
             'img2' =>'/img1/maturi2.jpeg',
         ]);
@@ -289,6 +302,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Saitama_East',
             'review'=>'4.6',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/herbs1.jpeg',
             'img2' =>'/img1/herbs2.jpeg',
         ]);
@@ -302,13 +316,14 @@ class SytesTableSeeder extends Seeder
             'url' => 'http://hanayuspa.jp/',
             'prefecture' =>'埼玉県',
             'address' =>'熊谷市上之1005',
-            'nearest' =>'',
-            'price' =>'',
-            'time' =>'',
-            'close' =>'',
-            'bus' =>'',
+            'nearest' =>'熊谷駅',
+            'price' =>'平日８００円、休日９５０円',
+            'time' =>'午前１０時〜午後１１時',
+            'close' =>'年中無休',
+            'bus' =>'あり',
             'direction'=>'Saitama_West',
             'review'=>'4.5',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/kumagaya1.jpeg',
             'img2' =>'/img1/kumagaya2.jpeg',
         ]);
@@ -329,6 +344,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Saitama_West',
             'review'=>'3.4',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/mangan1.jpeg',
             'img2' =>'/img1/mangan2.jpeg',
         ]);
@@ -349,6 +365,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Gunma_North',
             'review'=>'3.7',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/kogane1.jpeg',
             'img2' =>'/img1/kogane2.jpeg',
         ]);
@@ -369,6 +386,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Gunma_North',
             'review'=>'4.1',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/kawara1.jpeg',
             'img2' =>'/img1/kawara2.jpeg',
         ]);
@@ -389,6 +407,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Gunma_South',
             'review'=>'4.1',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/yutori1.jpeg',
             'img2' =>'/img1/yutori2.jpeg',
         ]);
@@ -409,6 +428,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Gunma_South',
             'review'=>'3.8',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/yurabu1.jpeg',
             'img2' =>'/img1/yurabu2.jpeg',
         ]);
@@ -429,6 +449,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Tochigi_South',
             'review'=>'4.2',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/tochigi1.jpeg',
             'img2' =>'/img1/tochigi2.jpeg',
         ]);
@@ -449,6 +470,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'あり',
             'direction'=>'Tochigi_South',
             'review'=>'4.5',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/edo1.jpeg',
             'img2' =>'/img1/edo2.jpeg',
         ]);
@@ -469,6 +491,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Tochigi_South',
             'review'=>'3.7',
+            'star'=>'/img/3.5.png',
             'img1' =>'/img1/beru1.jpeg',
             'img2' =>'/img1/beru2.jpeg',
         ]);
@@ -489,6 +512,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Tochigi_North',
             'review'=>'4.4',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/akebi1.jpeg',
             'img2' =>'/img1/akebi2.jpeg',
         ]);
@@ -509,6 +533,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Ibaraki_North',
             'review'=>'4.7',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/kirari1.jpeg',
             'img2' =>'/img1/kirari2.jpeg',
         ]);
@@ -529,6 +554,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Ibaraki_North',
             'review'=>'4.4',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/hitati1.jpeg',
             'img2' =>'/img1/hitati2.jpeg',
         ]);
@@ -549,6 +575,7 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Ibaraki_South',
             'review'=>'4.0',
+            'star'=>'/img/4.0.png',
             'img1' =>'/img1/kinu1.jpeg',
             'img2' =>'/img1/kinu2.jpeg',
         ]);
@@ -569,8 +596,9 @@ class SytesTableSeeder extends Seeder
             'bus' =>'なし',
             'direction'=>'Ibaraki_North',
             'review'=>'4.5',
+            'star'=>'/img/4.5.png',
             'img1' =>'/img1/koko1.jpeg',
-            'img2' =>'/img/koko2.jpeg',
+            'img2' =>'/img1/koko2.jpeg',
         ]);
     }
 }

@@ -15,7 +15,7 @@
                 <div class="syte">
                 <h2 class="name">
                 <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</h2>
-                 <img class="img1" src="{{asset($syte->img1)}}">
+                @include('sytes.picture')
                 </div>
             @endforeach
         </div>

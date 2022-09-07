@@ -31,6 +31,7 @@ class CreateSytesTable extends Migration
             $table->string('bus', 100)->nullable();
             $table->string('direction', 100)->nullable();
             $table->string('review', 100)->nullable();
+            $table->string('star', 100)->nullable();
             $table->string('img1', 100)->nullable();
             $table->string('img2', 100)->nullable();
             
