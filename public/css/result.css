@@ -27,7 +27,7 @@ h1{
 main {
         margin: auto;
         width: 75%;
-        min-width: 1000px;
+        /*min-width: 1000px;*/
         background-color: rgba(255,255,255,0.3);
         box-shadow: 10px 25px 40px 10px rgba(0, 0, 0, 0.8);
         max-height: 100%;

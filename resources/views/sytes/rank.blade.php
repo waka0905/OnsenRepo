@@ -39,7 +39,7 @@
         <div class='paginate'>
             {{ $sytes->links() }}
         </div>
-        <div class="footer">
+        
            
         </div>
         </main>

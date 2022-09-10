@@ -49,7 +49,6 @@
         </div>
       </div>
           </div>
-        
         <div class="title">
         <h1>♨︎日帰り温泉</h1>
         <h1>検索サイト︎</h1>
@@ -88,7 +87,7 @@
                     <option value="0">食事処なし</option>
                 </select>
                 </nobr>
-                <div class="w-100 mt3 text-center text-lg-center margin-top:1rem;">
+                <div class="w-100 mt3 text-center text-lg-center" style="margin-top:0.7rem;">
                 <input class="btn btn-info w25" type="submit" value="検索">
                 </div>
             </form>

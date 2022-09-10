@@ -463,7 +463,7 @@ class SytesTableSeeder extends Seeder
             'url' => 'https://www.edoyu.com/utsunomiya/',
             'prefecture' =>'栃木県',
             'address' =>'宇都宮市インターパーク4-2-5',
-            'nearest' =>'宇都宮',
+            'nearest' =>'宇都宮駅',
             'price' =>'全日1380円',
             'time' =>'午前9時〜午前0時',
             'close' =>'年中無休',
