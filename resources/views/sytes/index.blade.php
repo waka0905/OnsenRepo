@@ -3,6 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>️温泉検索</title>
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
          <link rel="stylesheet" href="{{asset('css/index.css') }}">
@@ -35,14 +51,18 @@
           </div>
         
         <div class="title">
-        <h1>♨︎日帰り温泉検索サイト︎</h1>
+        <h1>♨︎日帰り温泉</h1>
+        <h1>検索サイト︎</h1>
         <h2>誰でも簡単温泉検索</h2>    
         </div>
           </div>
+          
+        <section class="container">
         <div class="jenre">
             <h1>ジャンルから探す</h1>
             <form action="/sytes/result" method="GET">
                 @csrf
+                 <nobr>
                 サウナ
                 <select name="sauna" id="">
                     <option value="">どちらでも良い</option>
@@ -67,7 +87,10 @@
                     <option value="1">食事処あり</option>
                     <option value="0">食事処なし</option>
                 </select>
-                <input type="submit" value="検索">
+                </nobr>
+                <div class="w-100 mt3 text-center text-lg-center margin-top:1rem;">
+                <input class="btn btn-info w25" type="submit" value="検索">
+                </div>
             </form>
         </div>
         <div class="sub">
@@ -80,6 +103,7 @@
                 <img src="{{asset('img/ランキング.jpeg')}}" >
             </div>
         </div>
+        </section>
             <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
        <script>
               var swiper = new Swiper(".mySwiper", {
@@ -102,6 +126,5 @@
                 }
               });
         </script>
-   
     </body>
 </html>

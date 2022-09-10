@@ -11,7 +11,8 @@
     </head>
     <body class="body">
         <main>
-        <h1>関東温泉レビューランキング３０選
+        <h1>関東温泉レビューランキング３０選</h1>
+        <h3>
             <form action="/sytes/terms" method="GET">
                 @csrf
                 <select name="prefecture" id="">
@@ -24,12 +25,12 @@
                     <option value="茨城県">茨城県</option>
                 </select>
                 <input type="submit" value="絞り込み">
-        </h1> 
+        </h3> 
         <div class="sytes">
             @foreach($sytes as $syte)
                 <div class="syte">
                     <h2 class="name">
-                        <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　　{{ $syte->review }}<div class="star"><img src="{{asset($syte->star)}}"></div>
+                        <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　評価{{ $syte->review }}<div class="star"><img src="{{asset($syte->star)}}"></div>
                     </h2>
                     <img class="img" src="{{asset($syte->img1)}}">
                 </div>

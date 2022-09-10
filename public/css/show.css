@@ -5,18 +5,14 @@ background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Fi
 margin:0;
 }
 
-h2{
-    font-size: 30px;
-}
-
 .name{
-    font-size: 60px;
+    font-size: 1.9rem;
     text-align: center;
     color:#993300;  /* fallback for old browsers */
 }
 
 .img{
-    max-width: 50%;
+    max-width: 60%;
         width: 100%;
         display: flex;
         margin:0 auto;
@@ -31,7 +27,6 @@ h2{
 main {
         margin: auto;
         width: 75%;
-        min-width: 1000px;
         background-color: rgba(255,255,255,0.6);
         box-shadow: 10px 25px 40px 10px rgba(0, 0, 0, 0.8);
         max-height: 100%;
@@ -40,6 +35,6 @@ main {
 }
 
 .list{
-    font-size: 30px;
+    font-size: 1.2rem;
     
 }

@@ -19,7 +19,7 @@
             @foreach ($sytes as $syte)
                 <div class="syte">
                     <h2 class="name">
-                    <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　　{{ $syte->review }}<div class="star"><img src="{{asset($syte->star)}}"></div>
+                    <a href="/sytes/{{$syte->id}}">{{ $syte->name }}</a>　　評価{{ $syte->review }}<div class="star"><img src="{{asset($syte->star)}}"></div>
                     </h2>
                   <img class="img" src="{{asset($syte->img1)}}">
                 </div>
